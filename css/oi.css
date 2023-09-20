@@ -1,0 +1,70 @@
+
+.body{
+    color: white;
+    font-family: Base02;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 10px;
+  }
+  
+  header{
+    display: flex; 
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  #title{
+    flex-direction: column; 
+    line-height: 10px;
+  }
+  li{
+    display: inline-block; 
+    margin: 15px; 
+    color: white;
+  }
+  #login-btm{
+    border: 1px solid #107010; 
+    padding: 5px; 
+    border-radius: 20px;
+  }
+  h1{
+    font-weight:200;
+  }
+  main{
+    display: flex;
+    flex-direction: row;
+    margin-top:50px;
+  }
+  h2{
+    font-size: 55px;
+    line-height: 10px;
+  }
+  span{
+    color: #107010;
+  }
+  p{
+    line-height: 20px;
+    max-width: 500px;
+    font-family: Calibri;
+  }
+  
+  
+  
+  
+  .botao {
+    background-color: #107010;
+    color: white; 
+    padding: 5px 10px; 
+    border: none; 
+    cursor: pointer; 
+    
+}
+
+.botao:hover {
+    background-color: black;
+    color: #107010;
+}
+
+
+
